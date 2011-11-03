@@ -1,3 +1,9 @@
+# revision 23483
+# category Package
+# catalog-ctan /macros/latex/contrib/emp
+# catalog-date 2011-08-07 01:10:30 +0200
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-emp
 Version:	20110807
 Release:	1
@@ -56,6 +62,7 @@ conventions.
 %doc %{_texmfdistdir}/source/latex/emp/emp.dtx
 %doc %{_texmfdistdir}/source/latex/emp/emp.ins
 %doc %{_texmfdistdir}/source/latex/emp/empman.drv
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -66,3 +73,5 @@ conventions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
