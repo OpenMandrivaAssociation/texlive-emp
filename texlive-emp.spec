@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-emp
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	"Encapsulate" MetaPost figures in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/emp
