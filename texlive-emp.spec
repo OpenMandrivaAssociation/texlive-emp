@@ -3,7 +3,7 @@ Version:	23483
 Release:	2
 Summary:	"Encapsulate" MetaPost figures in a document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/emp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/emp
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/emp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/emp.doc.r%{version}.tar.xz
