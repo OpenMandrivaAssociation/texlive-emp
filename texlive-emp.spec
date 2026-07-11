@@ -13,8 +13,6 @@ Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/emp.doc.r%{tl_re
 Source2:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/emp.source.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-BuildRequires:	texlive-tlpkg
-%texlive_base_requires
 Provides:	texlive(%{tl_name}) = %{tl_revision}
 
 %description
